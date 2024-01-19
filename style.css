@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #000;
+}
+
+.head-rel {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.overlow::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    background: url(bg-img.jpg);
+}
+
+.head-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 160px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+
+}
+
+.background-img span svg {
+    width: 148px;
+    height: 40px;
+}
+
+.head-btn .lang-btn {
+    background-color: transparent;
+    margin: 0px;
+}
+
+.head-btn {
+    padding-top: 5px;
+    display: flex;
+}
+
+.sign-in {
+    background-color: #e50914;
+    width: 77px;
+    border-radius: 5px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 23px;
+    border: none;
+}
+
+.sign-in:hover {
+    background: rgb(193, 17, 25);
+}
+
+.sign-in a {
+    text-decoration: none;
+}
+
+.headline {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 156px;
+    margin-bottom: 140px;
+}
+
+.headline h1 {
+    line-height: 60px;
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.headline p {
+    font-size: 22px;
+    margin: 19px 0px 22px 0px;
+    font-weight: 400;
+}
+
+.headline h3 {
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.mail-btn {
+    border-radius: 4px;
+    height: 56px;
+}
+
+input[type="email"] {
+    width: 368px;
+    font-weight: 500;
+    padding-left: 15px;
+    background: rgba(41, 41, 41, 0.6);
+    border: 1px solid rgb(100, 100, 100);
+    font-size: 16px;
+}
+
+input[type="email"]:invalid {
+    outline: 1px solid #e50914;
+    border: none;
+}
+
+input[type="email"]:valid {
+    outline: 1px solid green;
+    border: none;
+}
+
+input[type="submit"] {
+    font-size: 23px;
+    position: relative;
+    top: 3px;
+    border: 1px solid #e50914;
+    background-color: #e50914;
+    width: 209px;
+    margin-left: 4px;
+    font-weight: 800px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: rgb(193, 17, 25);
+}
+
+.step {
+    background-color: #232323;
+    height: 8px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 65px 60px;
+}
+
+.discription,
+.watch-img {
+    width: 540px;
+    height: 379px;
+}
+
+.discription {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.discription h3 {
+    font-size: 46px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.discription p {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.watch-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watch-img img {
+    width: 100%;
+    height: auto;
+}
+
+.watch-img .ab {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.watch-img video {
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 463px;
+    height: 100%;
+}
+
+.watch-img .tv-vid2 {
+    top: -77px;
+    right: 135px;
+    transform: scale(1.2);
+    width: 276px;
+}
+
+/* FAQ */
+
+.faq {
+    padding: 65px 0px;
+    margin: 0px;
+}
+
+.faq h2 {
+    font-size: 48px;
+    margin-bottom: 18px;
+}
+
+.faq h3 {
+    margin-top: 40px;
+}
+
+.faq-line {
+    background-color: #2d2d2d;
+    font-size: 25px;
+    width: 80%;
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px auto;
+}
+
+.faq-line:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+/* FOOTER */
+
+footer {
+    color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    padding: 55px 250px 60px 159px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+@media only screen and (max-width:400px) {
+    footer {
+        padding: 0px 30px 0px 30px;
+        font-size: 12px;
+    }
+
+    footer .foot-link {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start !important;
+    }
+
+    footer .lang-btn {
+        height: 28px;
+        width: 100px;
+        margin: 30px 0px;
+    }
+
+    footer select {
+        font-size: 12px;
+    }
+
+    .faq h2 {
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+
+    .faq {
+        padding: 0px 20px;
+        margin: 0px;
+    }
+
+    .faq-line {
+        font-size: 12px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 12px;
+    }
+
+    .faq-line span svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    .faq h3 {
+        font-size: 13px;
+    }
+
+    .mail-btn {
+        height: 42px;
+    }
+
+    input[type="email"] {
+        width: 232px;
+    }
+
+    input[type="submit"] {
+        font-size: 17px;
+        width: 150px;
+        margin: 20px 0px 30px;
+    }
+
+    .headline .head-mail-btn {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .step {
+        display: none;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .discription h3 {
+        font-size: 30px;
+    }
+
+    .discription p {
+        font-size: 15px;
+    }
+
+    .discription,
+    .watch-img {
+        height: 270px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .watch-img img {
+        width: 100%;
+    }
+
+    .watch-img video {
+        width: 87%;
+        right: 0px;
+    }
+
+    .watch-img .tv-vid2 {
+        top: -48px;
+        width: 52%;
+        right: 86px;
+    }
+
+    .responsiv-reg {
+        height: 200px;
+    }
+
+    .responsiv-regg {
+        padding-top: 0px;
+    }
+
+    .responsiv-reg22 {
+        padding-bottom: 0px;
+    }
+
+    .headline {
+        margin: 0px;
+    }
+
+    .head-flex {
+        padding: 24px 15px;
+        flex-wrap: wrap;
+    }
+
+    .head-rel {
+        padding-bottom: 50px;
+    }
+
+    .headline h1 {
+        font-size: 28px;
+        line-height: 48px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 80px;
+    }
+
+    .headline p {
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .headline h3 {
+        font-size: 15px;
+        margin-bottom: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .overlow::before {
+        background-size: auto;
+        transform: scale(1);
+    }
+
+    .background-img span svg {
+        width: 100px;
+    }
+
+    .lang-btn .svgbn {
+        display: none;
+    }
+
+    .head-top-btn-sm {
+        width: 86px !important;
+    }
+
+    .sign-in {
+        margin-left: 8px;
+    }
+}
+
+footer .call,
+.call a {
+    padding: 12px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer .foot-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sub-foot-links a li {
+    list-style: none;
+    padding: 7px 0px;
+}
+
+.sub-foot-links a:active {
+    color: red;
+}
+
+.sub-foot-links a li:active {
+    color: red;
+}
+
+.lang-btn {
+    background-color: #a56868;
+    height: 32px;
+    width: 126px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 22px;
+    margin-bottom: 25px;
+    padding: 0px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+select {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: 500;
+}

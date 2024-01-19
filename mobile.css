@@ -1,0 +1,175 @@
+@media screen and (min-width: 400px) and (max-width:1200px) {
+
+    .discription,
+    .watch-img {
+        text-align: center;
+        align-items: center;
+    }
+
+    .step {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width:1200px) {
+
+    .discription,
+    .watch-img {
+        width: 662px;
+    }
+
+    .respons-800 {
+        padding-bottom: 130px;
+    }
+
+    .responsiv-reg {
+        height: 277px;
+    }
+
+    .respons-8002nd img {
+        margin-bottom: 100px;
+    }
+
+    .responsiv-reg22 {
+        padding-bottom: 0px;
+    }
+
+    .responsiv-regg {
+        padding-top: 0px;
+    }
+
+    .rspon-800 {
+        margin-bottom: 50px;
+    }
+
+    .responsiv-regg {
+        padding-bottom: 110px;
+    }
+
+    footer {
+        padding: 50px 70px;
+    }
+
+    .watch-img video {
+        width: 553px;
+    }
+
+    .watch-img .tv-vid2 {
+        top: -90px;
+        right: 155px;
+        width: 339px;
+    }
+
+    .head-flex {
+        padding: 35px;
+    }
+
+}
+
+@media screen and (min-width: 400px) and (max-width:800px) {
+    .container {
+        padding: 30px 30px;
+    }
+
+    .responsiv-reg {
+        height: 235px;
+    }
+
+    .faq-line {
+        width: 88%;
+    }
+
+    .respon-500 {
+        height: 335px;
+    }
+
+    .watch-img .tv-vid2 {
+        top: -73px;
+        right: 133px;
+        width: 278px;
+    }
+
+    .watch-img video {
+        width: 406px;
+        top: -13px;
+        right: 63px;
+    }
+
+    .faq h3 {
+        margin: 40px 30px;
+    }
+
+    input[type="submit"] {
+        margin-top: 20px;
+    }
+
+    .headline h3 {
+        margin: 0px 30px 20px;
+    }
+
+    .headline h1 {
+        font-size: 42px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .las-respo {
+        padding-top: 80px;
+    }
+
+    .watch-img .tv-vid2 {
+        top: -73px;
+        right: 133px;
+        width: 278px;
+    }
+
+    .faq h3 {
+        margin-top: 40px;
+    }
+
+    .head-flex {
+        padding: 25px 27px;
+    }
+
+    .faq h2 {
+        font-size: 42px;
+    }
+
+    .faq-line {
+        font-size: 21px;
+        padding: 15px;
+    }
+
+    .discription h3 {
+        font-size: 43px;
+    }
+
+    .discription p {
+        font-size: 21px;
+    }
+
+    footer {
+        padding: 10px 40px 60px 40px
+    }
+
+    .sign-in {
+        margin-left: 10px;
+    }
+
+    .head-mail-btn {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:599px) {
+    .watch-img video {
+        width: 330px;
+    }
+
+    .watch-img .tv-vid2 {
+        top: -72px;
+        right: 125px;
+        width: 53%;
+    }
+}
